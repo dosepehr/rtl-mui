@@ -6,10 +6,12 @@ import createCache from '@emotion/cache';
 import { prefixer } from 'stylis';
 import { Button } from '@mui/material';
 
-
 //NOTE Create Custom Theme
 const theme = createTheme({
     direction: 'rtl',
+    typography: {
+        fontFamily: 'vazir, roboto',
+    },
 });
 
 //NOTE Create RTL Cache
